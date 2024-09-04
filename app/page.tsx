@@ -33,7 +33,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-export default function page() {
+export default function Page() {
   const [date, setDate] = React.useState<Date | undefined>(new Date());
   return (
     <div>
